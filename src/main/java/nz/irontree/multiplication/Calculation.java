@@ -1,13 +1,12 @@
 package nz.irontree.multiplication;
 
 public class Calculation {
-
     public void multiplication() {
         for (int num1 = 2; num1 < 6; num1++) {
             for (int num2 = 1; num2 < 11; num2++) {
                 System.out.printf("%d * %d = %d%n", num1, num2, num1*num2);
             }
-            System.out.println(" ");
+            System.out.println();
         }
     }
 

@@ -23,7 +23,6 @@ public class Main {
         int x2 = scanner.nextInt();
         System.out.print("Write coordinate of B(y) ");
         int y2 = scanner.nextInt();
-
         Calculation segment = new Calculation();
         int length = segment.segment(x1, y1, x2, y2);
         System.out.printf("Length of segment AB: %d cm", length);
